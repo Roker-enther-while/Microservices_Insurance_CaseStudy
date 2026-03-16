@@ -6,6 +6,7 @@ C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNe
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\ProductService.runtimeconfig.json
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\ProductService.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\ProductService.pdb
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\MediatR.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -28,7 +29,6 @@ C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNe
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\ProductS.A0FC5512.Up2Date
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\ProductService.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService\obj\Debug\net8.0\refint\ProductService.dll

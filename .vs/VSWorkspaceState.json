@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DotNetMicroservices.Poc",
-    "\\DotNetMicroservices.Poc\\PaymentService",
-    "\\DotNetMicroservices.Poc\\PaymentService.Test",
-    "\\DotNetMicroservices.Poc\\PaymentService\\Controllers",
-    "\\DotNetMicroservices.Poc\\PricingService",
-    "\\DotNetMicroservices.Poc\\ProductService"
+    "\\DotNetMicroservices.Poc"
   ],
-  "SelectedNode": "\\DotNetMicroservices.Poc\\PaymentService\\PaymentService.csproj",
+  "SelectedNode": "\\DotNetMicroservices.Poc\\DotNetMicroservicesPoc.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -9,6 +9,7 @@
       "ProductService.Test/1.0.0": {
         "dependencies": {
           "Aspire.Hosting.Testing": "9.5.0",
+          "MediatR": "8.1.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "xunit": "2.9.3"
         },
@@ -342,6 +343,14 @@
           "lib/net8.0/KubernetesClient.dll": {
             "assemblyVersion": "17.0.0.0",
             "fileVersion": "17.0.14.27055"
+          }
+        }
+      },
+      "MediatR/8.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.0.0"
           }
         }
       },
@@ -1447,6 +1456,13 @@
       "sha512": "sha512-FMGWjGtN8WEUKAAQxs96PK2tYvPrvwhoJzay/6HiByVTvHoJ0i9u7ykvYb7E3vLTSlfv26Q2Ktxr41zYCppu8A==",
       "path": "kubernetesclient/17.0.14",
       "hashPath": "kubernetesclient.17.0.14.nupkg.sha512"
+    },
+    "MediatR/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KJFnA0MV83bNOhvYbjIX1iDykhwFXoQu0KV7E1SVbNA/CmO2I7SAm2Baly0eS7VJ2GwlmStLajBfeiNgTpvYzQ==",
+      "path": "mediatr/8.1.0",
+      "hashPath": "mediatr.8.1.0.nupkg.sha512"
     },
     "MessagePack/2.5.192": {
       "type": "package",

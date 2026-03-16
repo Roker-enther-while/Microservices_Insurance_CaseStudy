@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PricingService.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7271071d86ba0cfd76b2a9b16920f03e5355909c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e832ff2c3346e89a4a70266686d5eb98ef9c6831")]
 [assembly: System.Reflection.AssemblyProductAttribute("PricingService.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PricingService.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

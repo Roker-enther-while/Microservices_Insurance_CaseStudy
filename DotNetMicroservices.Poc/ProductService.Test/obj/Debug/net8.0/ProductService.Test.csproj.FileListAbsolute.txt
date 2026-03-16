@@ -23,6 +23,7 @@ C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNe
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\JsonPatch.Net.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\JsonPointer.Net.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\KubernetesClient.dll
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\MediatR.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\MessagePack.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\MessagePack.Annotations.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Test\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll

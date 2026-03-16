@@ -1,6 +1,7 @@
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\bin\Debug\net8.0\ProductService.Api.deps.json
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\bin\Debug\net8.0\ProductService.Api.dll
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\bin\Debug\net8.0\ProductService.Api.pdb
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\obj\Debug\net8.0\ProductService.Api.csproj.AssemblyReference.cache
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\obj\Debug\net8.0\ProductService.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\obj\Debug\net8.0\ProductService.Api.AssemblyInfoInputs.cache
 C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\ProductService.Api\obj\Debug\net8.0\ProductService.Api.AssemblyInfo.cs

@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[9.5.0, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.1, )"

@@ -1,0 +1,8 @@
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.csproj.AssemblyReference.cache
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.AssemblyInfoInputs.cache
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.AssemblyInfo.cs
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.csproj.CoreCompileInputs.cache
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dhp01\OneDrive\Documents\GitHub\Microservices_Insurance_CaseStudy\DotNetMicroservices.Poc\BlazorWasmClient\obj\Debug\net8.0\BlazorWasmClient.sourcelink.json

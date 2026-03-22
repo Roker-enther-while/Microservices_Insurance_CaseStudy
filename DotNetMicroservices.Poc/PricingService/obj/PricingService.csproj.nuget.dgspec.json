@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dhp01\\OneDrive\\Documents\\GitHub\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj": {}
+    "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dhp01\\OneDrive\\Documents\\GitHub\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj": {
+    "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService.Api\\PricingService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dhp01\\OneDrive\\Documents\\GitHub\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj",
-        "projectName": "PricingService",
-        "projectPath": "C:\\Users\\dhp01\\OneDrive\\Documents\\GitHub\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj",
+        "projectUniqueName": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService.Api\\PricingService.Api.csproj",
+        "projectName": "PricingService.Api",
+        "projectPath": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService.Api\\PricingService.Api.csproj",
         "packagesPath": "C:\\Users\\dhp01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dhp01\\OneDrive\\Documents\\GitHub\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\obj\\",
+        "outputPath": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,146 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj",
+        "projectName": "PricingService",
+        "projectPath": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\PricingService.csproj",
+        "packagesPath": "C:\\Users\\dhp01\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dhp01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService.Api\\PricingService.Api.csproj": {
+                "projectPath": "c:\\Users\\dhp01\\source\\repos\\Roker-enther-while\\Microservices_Insurance_CaseStudy\\DotNetMicroservices.Poc\\PricingService.Api\\PricingService.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DynamicExpresso.Core": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            },
+            "GlobalExceptionHandler": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Marten": {
+              "target": "Package",
+              "version": "[7.19.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Sinks.ColoredConsole": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Steeltoe.Discovery.ClientBase": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Steeltoe.Discovery.ClientCore": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Steeltoe.Discovery.Eureka": {
+              "target": "Package",
+              "version": "[3.2.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -126,6 +126,22 @@
       "RouteClaimsRequirement": {
         "userType": "SALESMAN"
       }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Documents/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Documents/{everything}",
+      "ServiceName": "DocumentService",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "userType": "SALESMAN"
+      }
     }
   ],
   "GlobalConfiguration": {

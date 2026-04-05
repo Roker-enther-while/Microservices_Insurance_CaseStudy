@@ -23,12 +23,23 @@
             <div class="row">
                 <span><strong>Covers:</strong> {{ policy.covers | join }}</span>
             </div>
-            <!-- <div class="row">
-                <button type="submit"
+            <div class="row" style="margin-top: 12px;">
+                <button type="button"
                         class="btn btn-primary"
-                        v-on:click.stop.prevent="documents">Documents
+                        v-on:click.stop.prevent="fetchDocuments">
+                    📄 Documents
                 </button>
-            </div> -->
+            </div>
+            <div v-if="documentsList.length > 0" class="row" style="margin-top: 10px;">
+                <ul>
+                    <li v-for="doc in documentsList" :key="doc">
+                        <a :href="documentsBaseUrl + '/' + doc" target="_blank" download>{{ doc }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div v-if="noDocuments" class="row" style="margin-top: 10px;">
+                <span class="text-muted">No documents available yet for this policy.</span>
+            </div>
         </div>
     </div>
 </template>
@@ -44,7 +55,9 @@
         data() {
             return {
                 policy: {},
-                documentsList: []
+                documentsList: [],
+                noDocuments: false,
+                documentsBaseUrl: '/api/Documents'
             }
         },
         created: function () {
@@ -56,51 +69,19 @@
             join: function (value) {
                 if (!value)
                     return '';
-
                 return value.join(', ');
             }
         },
         methods: {
-            documents: function () {
-                HTTP.get("documents/" + this.policyNumber).then(response => {
-                    this.documentsList = response.data.documents;
-                    this.documentsList.forEach((doc) => {
-                        const data = doc.content;
-                        const filename = 'Policy-' + this.policyNumber + '.pdf';
-                        const blob = b64toBlob(data, '', 8),
-                            e = document.createEvent('MouseEvents'),
-                            a = document.createElement('a');
-                        a.download = filename;
-                        a.href = window.URL.createObjectURL(blob);
-                        a.dataset.downloadurl = ['text/json', a.download, a.href].join(':');
-                        e.initMouseEvent('click', true, false, window,
-                            0, 0, 0, 0, 0, false, false, false, false, 0, null);
-                        a.dispatchEvent(e);
-                    })
+            fetchDocuments: function () {
+                const policyNum = this.policyNumber;
+                HTTP.get("Documents").then(response => {
+                    const allDocs = response.data;
+                    this.documentsList = allDocs.filter(f => f.includes('Policy_' + policyNum));
+                    this.noDocuments = this.documentsList.length === 0;
+                }).catch(() => {
+                    this.noDocuments = true;
                 });
-
-                function b64toBlob(b64Data, contentType, sliceSize) {
-                    contentType = contentType || '';
-                    sliceSize = sliceSize || 512;
-
-                    const byteCharacters = atob(b64Data);
-                    const byteArrays = [];
-
-                    for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
-                        const slice = byteCharacters.slice(offset, offset + sliceSize);
-
-                        const byteNumbers = new Array(slice.length);
-                        for (let i = 0; i < slice.length; i++) {
-                            byteNumbers[i] = slice.charCodeAt(i);
-                        }
-
-                        const byteArray = new Uint8Array(byteNumbers);
-
-                        byteArrays.push(byteArray);
-                    }
-
-                    return new Blob(byteArrays, {type: contentType});
-                }
             }
         }
     }
@@ -108,3 +89,4 @@
 
 <style scoped>
 </style>
+

@@ -44,3 +44,9 @@ services:
       NAME: rabbitmq
     volumes:
       - ./rabbitmq-isolated.conf:/etc/rabbitmq/rabbitmq.config
+
+  jsreport:
+    image: jsreport/jsreport:4.1.0
+    container_name: jsreport
+    ports:
+      - 5488:5488

@@ -4,3 +4,4 @@ Start-Process "cmd.exe" -ArgumentList "/k title Eureka Server && cd /d $basePath
 Start-Process "cmd.exe" -ArgumentList "/k title Pricing Service && cd /d $basePath\PricingService && dotnet run"
 Start-Process "cmd.exe" -ArgumentList "/k title Policy Service && cd /d $basePath\PolicyService && dotnet run"
 Start-Process "cmd.exe" -ArgumentList "/k title Policy Search Service && cd /d $basePath\PolicySearchService && dotnet run"
+Start-Process "cmd.exe" -ArgumentList "/k title Document Service && cd /d $basePath\DocumentService.Api && dotnet run"

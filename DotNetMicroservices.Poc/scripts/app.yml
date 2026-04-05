@@ -82,6 +82,15 @@ services:
     ports:
     - 5035:5035
 
+  dotnet-document-service:
+    build: 
+      context: ../
+      dockerfile: DocumentService.Api/Dockerfile
+    image: dotnet-document-service
+    container_name: dotnet-document-service
+    ports:
+    - 5080:5080
+
   dotnet-web-vue:
     build: ../Web
     image: dotnet-web-vue

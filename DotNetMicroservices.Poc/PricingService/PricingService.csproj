@@ -9,7 +9,7 @@
         <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.6" />
         <PackageReference Include="DynamicExpresso.Core" Version="2.16.1" />
         <PackageReference Include="GlobalExceptionHandler" Version="4.0.2" />
-        <PackageReference Include="Marten" Version="7.19.1" />
+        <PackageReference Include="Marten" Version="8.29.2" />
         <PackageReference Include="MediatR" Version="12.3.0" />
         <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
         <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="3.0.1" />
